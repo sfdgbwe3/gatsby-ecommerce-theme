@@ -26,15 +26,9 @@ const IndexPage = () => {
 
   return (
     <Layout disablePaddingBottom>
-      {/* Hero Container */}
-      <Hero
-        maxWidth={'500px'}
-        image={'/8yJRVTqi.jpeg'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
-      />
+      <Image src="/8yJRVTqi.jpeg" style="width:100vh;height:100vh">
+
+      </Image>
     </Layout>
   );
 };
